@@ -5,6 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dónde nos Encontramos</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <style>
+      body {
+      background-color: rgb(235, 239, 244);
+    }
+
+    h3 {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    h4 {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+      .sucursales {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center; 
+  }
+
+  .sucursal-card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    width: 330px;
+    text-align: left; 
+  }
+
+  .sucursal-card h2 {
+    text-align: center;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+    border-radius: 8px;
+  }
+
+    
+    </style>
+
+  
 </head>
 <body>
     <h1 style="font-family: 'Times New Roman', Times, serif;">Dolce Reposteria</h1>
@@ -17,13 +62,54 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-        <a class="nav-link" href="catalogo.html">Catalogo</a>
+        <a class="nav-link" href="catalogo.html">Catálogo</a>
         <a class="nav-link" href="puntos_disponibles.html">Puntos Disponibles</a>
-        <a class="nav-link" href="contactanos.html">Contactanos</a>
+        <a class="nav-link" href="contactanos.html">Contáctanos</a>
       </div>
     </div>
   </div>
 </nav>
+
+<br>
+
+<h3 style="text-align: center;"> Puntos Disponibles </h3>
+
+<br>
+
+<div class="sucursales">
+
+    <div class="sucursal-card">
+        <h4>Sucursal Centro</h4>
+        <div class="info">
+            <strong>Dirección:</strong> Calle 10 #20-30  
+        </div>
+        <div class="info">
+            <strong>Horario:</strong> 8:00 AM - 8:00 PM
+        </div>
+
+        <br>
+
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.912473664755!2d-74.083644!3d4.635122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99cd8047b787%3A0xe1a86fef1f5b28b1!2sCentro%20de%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1700000000000"
+        allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="sucursal-card">
+        <h4>Sucursal Norte</h4>
+        <div class="info">
+            <strong>Dirección:</strong> Av. Carrera 15 #120-50  
+        </div>
+        <div class="info">
+            <strong>Horario:</strong> 9:00 AM - 9:00 PM
+        </div>
+
+        <br>
+
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4325293856616!2d-74.046689!3d4.716437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f85c8cf22cd21%3A0x890d2a82b0f345f5!2sUsaqu%C3%A9n!5e0!3m2!1ses!2sco!4v1700000000001"
+        allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
     
 </body>
 </html>
